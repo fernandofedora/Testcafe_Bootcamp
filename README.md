@@ -127,9 +127,16 @@ testcafe chrome practica1.js
 # Built with 🛠️
 * [Dropwizard](https://www.javascript.com/)JavaScript- Programming language used
 * [Dropwizard](https://devexpress.github.io/testcafe/)Tescafe- The web framework used
-# Versioning 📌
+## Versionin 📌
 Version 1.0.2
 
+## Authors ✒️
+* **Fernando Espinoza** - *Initial Work* - [fnoel](https://github.com/fernandofedora)
+ 
+## License 📄
+Copyright (c) 2018-2020 Fernando Espinoza Lopez.
+Testcaf Course Practicese  Accounting is free libre open source software (FLOSS), licensed under the GNU General Public License version 3 (GPLv3), see the COPYING file or a copy at: https://www.gnu.org/licenses/gpl.txt
 
+ 
 
 
