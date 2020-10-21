@@ -21,6 +21,17 @@ class Page {
         //chebox hijos
         //this.checbox41 = Selector ('#checkboxes > input[type=checkbox]:nth-child(1)');
         this.checbox41 = Selector ('#checkboxes > input[type=checkbox]:nth-child(3)');
+
+        //practica5
+        this.link5 = Selector('a').withText('Inputs');
+        this.input51 = Selector ('#content > div > div > div > input[type=number]');
+
+        //pratica6
+        this.link6 = Selector('a').withText('Add/Remove Elements');
+        this.addBtn61 = Selector('#content > div > button')
+        this.removeBtn62 = Selector('#elements > button')
+        this.removeBtn63 = Selector ('#elements > button:nth-child(2)')
+        this.removeBtn64 = Selector ('#elements > button:nth-child(3)')
     }
 }
 export default new Page ();
