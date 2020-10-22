@@ -31,3 +31,15 @@ test('verificar envio de email', async t => {
     .expect(page.text33.innerText).contains('sent', 'prueba exitosa')
 })
 //hacer la preuba de el error 500, input basio
+
+test('Verificar que los campos esten vacios', async t => {
+    await t
+        .click(page.link3)
+    await t
+        .click(page.button32)
+    await t
+        .expect(page.textErro.innerText).contains('Error','prueba exitosa')
+
+
+});
+   
