@@ -27,4 +27,7 @@ test('Probar inputs', async t => {
 
     });
 
-    //agregar dos pruebas mas para el sabado
+    /*agregar dos pruebas mas para el sabado, TAREAS:
+*Separar practica 5 en 3 pruebas.
+*Separar y agregar al menos 1 prueba mas a practica 6 */
+

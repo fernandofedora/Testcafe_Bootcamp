@@ -33,6 +33,39 @@ class Page {
         this.removeBtn62 = Selector('#elements > button')
         this.removeBtn63 = Selector ('#elements > button:nth-child(2)')
         this.removeBtn64 = Selector ('#elements > button:nth-child(3)')
+
+        //practica1
+        this.input71 = Selector('#first-name')
+        this.input72 = Selector('#last-name')
+        this.input73 = Selector('#job-title');
+
+        this.rbtn74 = Selector('#radio-button-1');
+        this.rbtn75 = Selector('#radio-button-2');
+        this.rbtn76 = Selector('#radio-button-3');
+
+        this.checkbok77 = Selector('#checkbox-1');
+        this.checkbok78 = Selector('#checkbox-2');
+        this.checkbok79 = Selector('#checkbox-3');
+
+        this.smenu701 = Selector('#select-menu');
+        this.opt702 = Selector('#select-menu > option:nth-child(2)');
+
+        this.date703 = Selector('#datepicker');
+        this.btn704 = Selector('body > div > form > div > div:nth-child(15) > a');
+
+        this.text705 = Selector('h1').withText('Thanks for submitting your form');
+        this.text706 = Selector('body > div > div');
+
+        //datepicker
+        //practica 9
+        this.link9 = Selector('a').withText('Key Presses');
+        this.text91 = Selector('#result');
+
+        //practica10
+        this.link10 = Selector('a').withText('Context Menu');
+        this.hostpot101 = Selector('#hot-spot');
+        
     }
+    
 }
 export default new Page ();
