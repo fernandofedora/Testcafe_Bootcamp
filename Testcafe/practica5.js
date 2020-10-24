@@ -23,7 +23,7 @@ test('Probar inputs', async t => {
 
     });
 
-    test('Validar que no se puedan escribir sinbolos dentro del input', async t => { 
+    test('Validar que no se puedan escribir simbolos dentro del input', async t => { 
         await t
             .click(page.link5)
         await t
