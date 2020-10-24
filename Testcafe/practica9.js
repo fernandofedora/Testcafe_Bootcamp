@@ -47,4 +47,8 @@ test('Probar presionar teclas', async t => {
             .wait(500)
 
 
+<<<<<<< HEAD
      });
+=======
+     });
+>>>>>>> master
