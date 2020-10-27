@@ -17,11 +17,16 @@ test('probando primer formulario', async t => {
         .click(page.rbtn74)
         .expect(page.rbtn74.checked).ok()
         .click(page.rbtn75)
+        .expect(page.rbtn75.checked).ok()
         .click(page.rbtn76)
+        .expect(page.rbtn76.checked).ok()
 
         .click(page.checkbok77)
+        .expect(page.checkbox77.checked).ok()
         .click(page.checkbok78)
+        .expect(page.checkbox78.checked).ok()
         .click(page.checkbok79)
+        .expect(page.checkbox79.checked).ok()
 
         .click(page.smenu701)
         .click(page.opt702)
