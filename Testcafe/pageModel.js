@@ -34,7 +34,7 @@ class Page {
     this.removeBtn62 = Selector('#elements > button')
     this.removeBtn63 = Selector('#elements > button:nth-child(2)')
     this.removeBtn64 = Selector('#elements > button:nth-child(3)')
-
+    this.textTitle6 = Selector ('#content > h3');
     //Practica 7
     this.input71 = Selector('#first-name');
     this.input72 = Selector('#last-name');
