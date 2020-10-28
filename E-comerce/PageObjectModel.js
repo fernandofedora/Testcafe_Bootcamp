@@ -12,6 +12,7 @@ import {Selector} from 'testcafe';
             this.firstname_Address  = Selector ('#firstname');
             this.lastname_Address  = Selector ('#lastname');
             this.address = Selector ('#address1');
+            this.city = Selector('#city');
 
 
 
