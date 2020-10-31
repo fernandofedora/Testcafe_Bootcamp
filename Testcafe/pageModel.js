@@ -53,6 +53,17 @@ class Page {
     this.text705 = Selector('h1').withText('Thanks for submitting your form');
     this.text706 = Selector('body > div > div');
 
+    //Practica 8
+    this.link8 = Selector('a').withText('Form Authentication');
+    this.text8 = Selector('#content > div > h2');
+    this.btnLogin8 = Selector('#login > button');
+    this.textError8 = Selector('#flash');
+    this.input81 = Selector('#username');
+    this.input82 = Selector('#password');
+    this.textsauss8 = Selector('#flash');
+    this.text83 = Selector('#content > div > h4');
+    this.logout8 = Selector('#content > div > a > i')
+
     //Practica 9
     this.link9 = Selector('a').withText('Key Presses');
     this.text91 = Selector('#result');
@@ -63,7 +74,8 @@ class Page {
 
     //Practica 11
     this.link11 = Selector('a').withText('Horizontal Slider');
-    this.slider = Selector('#content > div > div > input[type=range]');
+    this.slider11 = Selector('#content > div > div > input[type=range]');
+
 
     //Practica 12
     //#slider
@@ -72,7 +84,7 @@ class Page {
         handle: Selector('.ui-slider-handle'),
         value:   Selector('.slider-value')
         };
-
     }
+    
 }
 export default new Page();
