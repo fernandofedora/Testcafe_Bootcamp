@@ -125,8 +125,8 @@ Go into the root directory from your terminal and run the following code to run 
 testcafe chrome practica1.js
 ```
 # Built with 🛠️
-* [Dropwizard](https://www.javascript.com/)JavaScript- Programming language used
-* [Dropwizard](https://devexpress.github.io/testcafe/)Tescafe- The web framework used
+* [JavaScript](https://www.javascript.com/)- Programming language used
+* [Tescafe](https://devexpress.github.io/testcafe/)- The web framework used
 ## Versionin 📌
 Version 1.0.2
 
