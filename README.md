@@ -7,6 +7,10 @@ for the Windows operating systems version, there is an executable that you only 
 ```
 https://code.visualstudio.com/
 ```
+### To install it on mac there is also an executable version
+```
+https://code.visualstudio.com/docs/?dv=osx
+```
 #### Debian and Ubuntu based distributions
 The easiest way to install Visual Studio Code for Debian/Ubuntu based distributions is to download and install the .deb package (64-bit), either through the graphical software center if it's available,
 or through the command line with:
